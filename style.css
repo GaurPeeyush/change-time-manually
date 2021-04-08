@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    outline: none; /*Remove for commercial use*/
+}
+::-webkit-scrollbar{
+    width: 4px;
+}
+::-webkit-scrollbar-track{
+    background-color: #2b2b2b;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #666666;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+p{
+    margin: 8px 2px;
+}
+select{
+    background-color: #000000;
+    color: #ffffff;
+    height: 32px;
+    border: 2px solid #666666;
+    margin: 8px 2px;
+}
+option{
+    background-color: #2b2b2b;
+}
+option:checked{
+    background-color: #002642;
+}
+button{
+    background-color: #333333;
+    color: #ffffff;
+    height: 32px;
+    padding: 0 8px;
+    border: 2px solid #333333;
+    margin: 8px 2px;
+}
+button:hover{
+    border: 2px solid #858585;
+}
+button:active{
+    transform: scale(0.95);
+    background-color: #666666;
+    border: 2px solid #666666;
+}
+.root{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
